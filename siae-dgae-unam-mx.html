@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen con Scroll</title>
+    <style>
+        * {
+            margin: 0; /* Sin márgenes para todos los elementos */
+            padding: 0; /* Sin relleno para todos los elementos */
+            box-sizing: border-box; /* Modelo de caja estándar */
+        }
+        body, html {
+            height: 100%; /* Asegura que el cuerpo y el HTML ocupen toda la altura */
+            overflow-x: hidden; /* Evita desplazamiento horizontal */
+        }
+        img {
+            display: block; /* Elimina espacios extra alrededor de la imagen */
+            width: 100%; /* La imagen abarca todo el ancho */
+            height: auto; /* Mantiene la proporción de la imagen */
+        }
+    </style>
+</head>
+<body>
+    <img src="foto.jpg" alt="Descripción de la foto">
+</body>
+</html>
+
+
